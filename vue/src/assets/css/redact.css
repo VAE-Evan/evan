@@ -1,0 +1,26 @@
+.redact{
+  position: relative;
+}
+.amend{
+  width: 100%;
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  z-index: 10;
+}
+
+.amend>div{
+  display: inline-block;
+  width: 80%;
+  margin: 10px;
+}
+.amend>i{
+  display: inline-block;
+  width: 16px;
+}
+.amend>button{
+  display: block;
+  width: 60%;
+  margin: 0 auto 10px;
+}

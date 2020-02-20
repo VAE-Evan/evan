@@ -1,0 +1,31 @@
+.index .title{
+  display: flex;
+  justify-content: space-around;
+  line-height: 100px;
+  background: #2c3e50;
+  color: #fff;
+}
+.index .title>div>p{
+  float: left;
+  margin: 0 10px;
+}
+.index .title>div>i{
+  color: red;
+  cursor: pointer;
+}
+
+.index .leftNav{
+  float: left;
+  width: 100px
+}
+.index .main{
+  background: #F0F0F2;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.index .main .right{
+  float: left;
+  margin-left: 30px;
+}
+
